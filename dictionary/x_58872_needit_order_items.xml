@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Order Items" max_length="40" name="x_58872_needit_order_items" type="collection">
+        <element label="Description" max_length="255" name="description" type="string"/>
         <element label="Order Row" max_length="32" name="order_row" reference="x_58872_needit_order" type="reference"/>
         <index name="index">
             <element name="order_row"/>
